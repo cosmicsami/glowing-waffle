@@ -1,0 +1,11 @@
+import tkinter,time
+bg=tkinter.Tk()
+hour=tkinter.Entry(bg,font=('Comic Sans MS',50,'bold'))
+hour.grid(row=1,column=1)
+minute=tkinter.Entry(bg,font=('Comic Sans MS',50,'bold'))
+minute.grid(row=2,column=1)
+sec=tkinter.Entry(bg,font=('Comic Sans MS',50,'bold'))
+sec.grid(row=3,column=1)
+ntr=tkinter.Button(bg,text=("set timer"),font=('Comic Sans MS',50,'bold'))
+ntr.grid(row=2,column=3)
+bg.mainloop()
